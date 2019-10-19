@@ -1,7 +1,7 @@
 # Личный проект «Что посмотреть» [![Build status][travis-image]][travis-url]
 
-* Студент: [Павел Григорьев](https://up.htmlacademy.ru/react/2/user/564549).
-* Наставник: `Неизвестно`.
+- Студент: [Павел Григорьев](https://up.htmlacademy.ru/react/2/user/564549).
+- Наставник: [Павел Григорьев](https://up.htmlacademy.ru/react/2/user/564549).
 
 ---
 
