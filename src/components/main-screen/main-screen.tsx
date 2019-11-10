@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 
-export const MainScreen = (): any => (
+export const MainScreen = (): JSX.Element => (
   <>
     <div>
       <div className="visually-hidden">
