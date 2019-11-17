@@ -34,4 +34,7 @@ module.exports = {
       allowHigherOrderFunctions: true
     }]
   },
+  env: {
+    jest: true
+  }
 };

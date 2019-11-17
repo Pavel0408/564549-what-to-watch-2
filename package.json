@@ -5,7 +5,7 @@
   "description": "Личный проект «Что посмотреть» от HTML Academy",
   "scripts": {
     "eslint": "eslint src/**/*.tsx",
-    "test": "npm run eslint",
+    "test": "npm run eslint && jest",
     "build": "webpack --mode production",
     "start": "webpack-dev-server"
   },
@@ -13,10 +13,13 @@
     "@babel/core": "7.6.4",
     "@babel/preset-env": "7.6.3",
     "@babel/preset-react": "7.6.3",
+    "@types/jest": "24.0.23",
     "@types/react": "16.9.11",
     "@typescript-eslint/eslint-plugin": "2.6.0",
     "@xcritical/eslint-plugin-xcritical": "2.0.2",
     "babel-loader": "8.0.6",
+    "enzyme": "3.10.0",
+    "enzyme-adapter-react-16": "1.15.1",
     "eslint": "6.6.0",
     "eslint-config-airbnb": "18.0.1",
     "eslint-config-airbnb-base": "14.0.0",
@@ -24,6 +27,8 @@
     "eslint-import-resolver-alias": "1.1.2",
     "eslint-plugin-class-methods-use-this-regexp": "0.1.0",
     "eslint-plugin-react": "7.16.0",
+    "jest": "24.9.0",
+    "ts-jest": "24.1.0",
     "ts-loader": "6.2.1",
     "typescript": "3.6.4",
     "webpack": "4.41.2",
@@ -34,8 +39,9 @@
     "node": "10"
   },
   "dependencies": {
-    "@types/react-dom": "16.9.3",
+    "@types/react-dom": "16.9.4",
     "react": "16.11.0",
-    "react-dom": "16.11.0"
+    "react-dom": "16.11.0",
+    "react-test-renderer": "16.12.0"
   }
 }
